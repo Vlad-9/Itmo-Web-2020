@@ -1,0 +1,183 @@
+body{
+     font-size: 15px;
+     line-height: 1.3;
+     margin: 0;
+}
+ .intro_section {
+     min-width: 1600px;
+     height: 100vh;
+     background: url("../images/road.jpg");
+     background-size: 100% 100vh;
+     margin: 0;
+     padding: 0;
+}
+ .top_panel {
+     height: 10vh;
+     background-color: rgba(0, 0, 0, 0.3);
+     margin: 0;
+     min-width: 1600px;
+     padding: 0;
+}
+ .header3 {
+     width:100%;
+     height: 10vh;
+     align-content: center;
+     padding-bottom: 50px;
+}
+ .panel_text{
+     padding-top: 10px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+ .middle_section {
+     width:100%;
+     height: 100vh;
+     background-color: whitesmoke;
+     color:darkslategrey;
+     padding-top: 10px;
+     text-align: center;
+     font-family: 'Mont';
+     font-size: 30px;
+     min-width: 1600px;
+     margin: 0;
+}
+ .last_section {
+     width:100%;
+     height: 20vh;
+     background-color: cadetblue;
+     color:whitesmoke;
+     padding-top: 10px;
+     text-align: center;
+     font-family: 'Mont';
+     font-size: 30px;
+     display: flex;
+     margin: 0;
+     font-size: 10px;
+     min-width: 1600px;
+}
+ .contacts_1{
+     align-items: flex-start;
+     padding-left: 50px;
+     padding-top: 30px;
+}
+ .contacts_2{
+     padding-left: 150px;
+     padding-top: 30px;
+}
+ .logo{
+     font-family: 'Mont';
+     font-weight: 600;
+     font-size: 55px;
+     padding-left: 50px;
+     color: ghostwhite;
+}
+ .nav{
+     font-size: 14px;
+}
+ .text_intro{
+     font-size: 100px;
+     font-family: 'Mont';
+     width: 77%;
+     color:whitesmoke;
+     text-shadow: gray 0 0 2px;
+     padding-left: 50px;
+     padding-top: 30px;
+}
+ .nav-link{
+     font-size: 30px;
+     font-family: 'Mont';
+     color:ghostwhite;
+     text-decoration: none;
+     transition: color .2s linear;
+     vertical-align: top;
+     margin: 0 30px;
+     opacity: 100%;
+}
+ .nav-link:hover{
+     color:midnightblue;
+}
+ .card {
+     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+     transition: 0.3s;
+     display: inline-grid;
+     max-width: 50vh;
+     height: 60vh;
+     margin: 0 30px;
+}
+ .card:hover {
+     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+ .container1 {
+     padding: 2px 16px;
+}
+ .stations{
+     margin: 0 300px;
+     align-content: center;
+     align-items: center;
+}
+ .border {
+     list-style: none;
+     padding: 0;
+}
+ .border li {
+     font-family: 'Mont';
+     padding: 7px 20px;
+     margin-bottom: 30px;
+     border-radius: 5px;
+     border-right: 10px solid #f05d22;
+     box-shadow: 2px -2px 5px 0 rgba(0,0,0,.1), -2px -2px 5px 0 rgba(0,0,0,.1), 2px 2px 5px 0 rgba(0,0,0,.1), -2px 2px 5px 0 rgba(0,0,0,.1);
+     font-size: 20px;
+     letter-spacing: 2px;
+     transition: 0.3s all linear;
+}
+ .border li:nth-child(1){
+     border-color: #fcba30;
+}
+ .border li:nth-child(2){
+     border-color: #8bc63e;
+}
+ .border li:nth-child(3){
+     border-color: #f05d22;
+}
+ .border li:hover {
+     border-right: 10px solid transparent;
+}
+ blockquote {
+     margin: 0;
+     background: white;
+     border-top: 5px solid #EAF9F9;
+     border-bottom: 5px solid #EAF9F9;
+     color: #3A3C55;
+     padding: 30px 30px 30px 90px;
+     position: relative;
+  
+     font-family: 'Mont';
+     font-weight: 300;
+}
+ blockquote:before {
+     content: "\201C";
+     font-family: 'serif';
+     position: absolute;
+     left: 20px;
+     top: 20px;
+     color: white;
+     background: #FB6652;
+     width: 50px;
+     height: 50px;
+     border-radius: 50%;
+     font-size: 50px;
+     line-height: 1.35;
+     text-align: center;
+}
+ blockquote p {
+     margin: 0 0 16px;
+     font-size: 22px;
+     letter-spacing: .05em;
+     line-height: 1.4;
+    font-family: 'Mont';
+}
+ blockquote cite {
+     font-style: normal;
+}
+ 
