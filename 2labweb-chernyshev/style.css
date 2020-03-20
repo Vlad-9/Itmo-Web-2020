@@ -1,0 +1,91 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: #4f7942;
+}
+.loading{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.loading_text {
+    display: flex;
+            font-family: sans-serif;
+            font-size: 40px;
+            color: #fafafa;
+            animation: 3s ease-in-out infinite textZoomInOut;
+   position: relative;
+        }
+.stripe{
+  width: 6px;
+  height: 40px;
+  background: white;
+  margin: 0 3px;
+  border-radius: 10px;
+}
+.stripe1{
+animation: loading 0.9s infinite;
+  animation-delay: 0.1s;
+}
+.stripe2{
+animation: loading 0.9s infinite;
+  animation-delay: 0.2s;
+}
+.stripe3{
+animation: loading 0.9s infinite;
+  animation-delay: 0.3s;
+}
+.stripe4{
+animation: loading 0.9s infinite;
+  animation-delay: 0.4s;
+}
+.stripe5{
+animation: loading 0.9s infinite;
+  animation-delay: 0.5s;
+}
+.stripe6{
+animation: loading 0.9s infinite;
+  animation-delay: 0.5s;
+}
+.stripe7{
+animation: loading 0.9s infinite;
+  animation-delay: 0.4s;
+}
+.stripe8{
+animation: loading 0.9s infinite;
+  animation-delay: 0.3s;
+}
+.stripe9{
+animation: loading 0.9s infinite;
+  animation-delay: 0.2s;
+}
+.stripe10{
+animation: loading 0.9s infinite ;
+  animation-delay: 0.1s;
+}
+
+
+@keyframes loading {
+  0%{
+    transform: scaleY(0);
+  }
+  50%{
+     transform: scaleY(3);
+  }
+  100%{
+     transform: scaleY(0);
+  }
+}
+
+@keyframes loading2 {
+  0%{
+    transform: scaleY(0);
+  }
+  50%{
+     transform: scaleY(3);
+  }
+  100%{
+     transform: scaleY(0);
+  }
+}
