@@ -1,0 +1,119 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.first{
+    background: #EEF6FB;
+}
+.second{
+    background: #fde910;
+}
+.photo{
+    display: flex;
+    justify-content: center;
+}
+.img{
+  padding-bottom: 20px;
+}
+.info{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.name{
+    color: #bf0d3d;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: 3px;
+    font-family: Times New Roman, cursive;
+}
+.Profile-info{
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    text-align: center;
+    padding: 5px;
+    color: #070311;
+    font-size: 16pt;
+    margin: 0;
+    font-family: Comic Sans MS;
+}
+.button{
+    background: #4169E1;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 15px;
+    height: 50px;
+    width: 180px;
+    color: #fde910;
+    font-size: 20pt;
+    margin: 5px;
+	font-family:FinkHeavy;
+	border: 1px solid #4169E1;
+}
+.button:active {
+  background-color: #87CEFA;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.button:hover{
+    transition-duration: 0.3s;
+    background-color: #87CEFA;
+  
+    color: white;
+}
+
+
+.buttons{
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+.poke-name{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 30pt;
+    color: #4169E1;
+    font-family: Pokemon Hollow;
+}
+.header{
+    color: #4169E1;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+	 font-size: 30pt;
+    font-family: FinkHeavy;
+}
+.div{
+	background: #FFFFF0;
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 500px;
+    border: 2px solid #FFFFF0;
+    border-radius: 10px;
+    margin: 15px auto;
+    padding: 10px;
+}
+.ability{
+
+    color: #4169E1;
+    margin: 5px;
+    font-weight: bold;
+    font-size: 14pt;
+    font-family: FinkHeavy;
+
+}
+.description{
+    margin: 0;
+    text-align: center;
+    color: #red;
+    font-family: Comic Sans MS , cursive;
+}
